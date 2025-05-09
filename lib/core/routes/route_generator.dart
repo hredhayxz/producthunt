@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../presentation/features/product_list/product_list_screen.dart';
 import '../../presentation/features/splash/splash_screen.dart';
 import 'app_routes.dart';
 
@@ -10,8 +11,8 @@ final class RouteGenerator {
     switch (settings.name) {
       case AppRoutes.splash:
         return _fadeRoute(const SplashScreen(), settings);
-      // case AppRoutes.productList:
-      //   return _fadeRoute(const ProductListScreen(), settings);
+      case AppRoutes.productList:
+        return _fadeRoute(const ProductListScreen(), settings);
 
       default:
         return _errorRoute();
