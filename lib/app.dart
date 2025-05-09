@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import 'core/theme/app_theme.dart';
+
 class ProductHuntApp extends StatelessWidget {
   const ProductHuntApp({super.key});
 
@@ -14,6 +16,9 @@ class ProductHuntApp extends StatelessWidget {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
           title: 'Product Hunt',
+          theme: AppTheme.lightTheme,
+          darkTheme: AppTheme.darkTheme,
+          themeMode: ThemeMode.system,
           builder: (context, child) {
             ScreenUtil.init(context);
             return MediaQuery(
