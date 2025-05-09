@@ -15,7 +15,11 @@ final class AppDimens {
 
   static double get h16 => 16.h;
 
+  static double get h20 => 20.h;
+
   static double get h48 => 48.h;
+
+  static double get h100 => 100.h;
 
   // Widths
   static double get w1 => 1.w;
