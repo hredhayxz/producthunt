@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import 'core/routes/app_routes.dart';
+import 'core/routes/route_generator.dart';
 import 'core/theme/app_theme.dart';
 
 class ProductHuntApp extends StatelessWidget {
@@ -19,6 +21,8 @@ class ProductHuntApp extends StatelessWidget {
           theme: AppTheme.lightTheme,
           darkTheme: AppTheme.darkTheme,
           themeMode: ThemeMode.system,
+          initialRoute: AppRoutes.splash,
+          onGenerateRoute: RouteGenerator.generateRoute,
           builder: (context, child) {
             ScreenUtil.init(context);
             return MediaQuery(
