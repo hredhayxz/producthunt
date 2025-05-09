@@ -7,7 +7,7 @@ A simple Flutter app that fetches and displays a list of products from a REST AP
 - Fetch product list and handle all error
 
 
-  ### Prerequisites
+### Prerequisites
 
 Ensure Flutter is installed on your machine. For installation instructions, refer to the official [Flutter website](https://flutter.dev/docs/get-started/install).
 
@@ -42,6 +42,13 @@ Connect your device or emulator and run the app using the following command:
 ```bash
 flutter run
 ```
+
+### Screenshots
+
+<div style="display: flex; flex-wrap: wrap;">
+   <img src="https://github.com/hredhayxz/producthunt/blob/main/screenshot_preview/1.png" width="200" />
+<img src="https://github.com/hredhayxz/producthunt/blob/main/screenshot_preview/2.png" width="200" />
+</div>
 
 ### APK
 Download the latest APK here. [Download](https://drive.google.com/file/d/1N7kkcYE7Gn_aXxZ6lIeuBvaqjKfYVaMI/view?usp=sharing)
