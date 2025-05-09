@@ -42,3 +42,16 @@ Connect your device or emulator and run the app using the following command:
 ```bash
 flutter run
 ```
+
+### APK
+Download the latest APK here. [Download](https://drive.google.com/file/d/1N7kkcYE7Gn_aXxZ6lIeuBvaqjKfYVaMI/view?usp=sharing)
+
+
+### Project Structure
+```
+lib/
+├── core/              # Core utilities, constants, and DI
+├── data/              # Data models and repositories
+├── presentation/      # UI and BLoC logic
+└── main.dart          # App entry point
+```
